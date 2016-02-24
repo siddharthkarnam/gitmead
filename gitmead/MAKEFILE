@@ -1,0 +1,7 @@
+all: tic_tac_toe
+
+tic_tac_toe:
+	gcc -g -o tic_tac_toe tic_tac_toe.c
+
+clean:
+	rm -rf tic_tac_toe output*
